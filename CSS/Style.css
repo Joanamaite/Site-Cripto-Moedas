@@ -1,20 +1,181 @@
-#cor{
-  background-color: #081F72;
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
 
+#cor{
+    background-image:url(https://trademap.com.br/wp-content/uploads/2020/12/BG-Criptomoedas-trademap-2.png);
+    background-position: center left;
+    background-repeat: no-repeat;
+    opacity: 1;
+    height: 600px;
 }
-#texto{
+.margin{
+    margin-top: 10%;
+}
+.texto{
     color: #fff;
-    font-size: 0.5rem;
+    margin-top: 4%;
 }
 #imagem{
-    width: 30vw;
+    width: 40vw;
+    margin-left: 6%;
 }
-#textprim{
-    font-size: 1.5rem;
+.textprim{
     color: #fff;
 }
-#botao{
-    background-color: #081F72;
+.textpr{
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+.botao{
+    background-color: #020B3F;
+    text-transform: uppercase;
+    margin-bottom: 5%;
+    font-size: 25px;
+    font-weight: 200;
     border-color:#F49E00;
     color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 7px 7px 0px -1px #FCD11A;
+    border-width: 3px 3px 3px 3px;
+    border-style: solid;
+    margin-top: 3%;
+}
+.botao:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.cores{
+   background-color: #020B3F;
+
+}
+.textexcuro{
+    color: #fff;
+    font-weight: bold;
+}
+.azul{
+    background-color: #E9F2FF;
+}
+.letra{
+    font-family: 'Montserrat', sans-serif;
+    color: #020B3F;
+    font-weight: 700;
+}
+.letrafina{
+    font-weight: 300;
+    color: #020B3F;
+}
+.corletra{
+    color: #6F68BC6B;
+    font-family: "Montserrat", Sans-serif;
+    font-weight: 700;
+    font-size: 97px;
+    margin: 0;
+    font-weight: 600;
+    text-align: left;
+}
+.titulo{
+    color: #020B3F;
+    font-size: 1.3rem;
+    margin-top: -40px;
+    text-align: left;
+    margin-left: 8%;
+}
+.subtitulo{
+    text-align: left;
+    font-weight: 300;
+    margin-left: 8%;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+ .botaosegund{
+    background-color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 5%;
+    font-size: 25px;
+    border-color:#020B3F;
+    color: #020B3F;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 7px 7px 0px -1px #FCD11A;
+    border-width: 3px 3px 3px 3px;
+    border-style: solid;
+    margin-top: 3%;
+ }
+ .botaosegund:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.seta{
+    width: 5vw;
+    margin-top: 8%;
+    display: flex;
+    float: left;
+}
+.letras{
+    color: #020B3F;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    float: left;
+    margin-top: 8.5%;
+    margin-left: 3%;
+    font-weight: 400;
+}
+
+.fundoazul{
+    background-image: url(https://trademap.com.br/wp-content/uploads/2020/12/BG-Criptomoedas-trademap-2.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    width: 130vh;
+    height: 100vh;
+    margin-left: 15%;
+    box-shadow: 20px 20px 0px 5px #aa8b00;
+    border-style: solid;
+    border: #fff 5px;
+
+}
+.imagemfundo{
+    background-image: url(https://trademap.com.br/wp-content/uploads/2020/12/BG-Criptomoedas-trademap-2.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
+.branco{
+    color: #fff;
+    font-weight: 700;
+}
+.coresletra{
+    color: #fff;
+    font-size: 1rem;
+}
+.tamanholetra{
+    color: #fff;
+    font-size: 0.8rem;
+}
+.tamanho{
+    width: 60vw;
+    margin-left: 5%;
+}
+.posici{
+    margin-left: 40%;
+}
+.fundofooter{
+    background-image: url(https://trademap.com.br/wp-content/uploads/2020/12/BG-Criptomoedas-trademap-2.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    width: 100%;
+    height: 60vh;
+}
+.logofooter{
+    width: 30vw;
+    margin-left: 30%;
+    margin-top: 5%;
+    display: flow-root;
+}
+.margindi{
+    margin-left: 38%;
 }
