@@ -157,7 +157,7 @@
     font-size: 0.8rem;
 }
 .tamanho{
-    width: 60vw;
+    width: 62vw;
     margin-left: 8%;
 }
 .posici{
@@ -165,27 +165,19 @@
 }
 .fundofooter{
     background-image: url(https://trademap.com.br/wp-content/uploads/2020/12/BG-Criptomoedas-trademap-2.png);
-    background-position: bottom right;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 1;
-    width: 100%;
-    height: 65vh;
+    width: 150%;
+    height: 60vh;
 }
 .logofooter{
     width: 30vw;
-    margin-left: 32%;
+    margin-left: 35%;
     margin-top: 5%;
     display: flow-root;
 }
 .margindi{
-    margin-left: 38%;
+    margin-left: 42%;
 }
-.accordion-button:hover{
-    background-image: none;
-    background-color: #E9F2FF;
-    color: #020B3F;
-}
+
 .wrap{
     margin-left: 40px;
     margin-top: 30px;
