@@ -1,7 +1,7 @@
- @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
 
-#cor{
+ #cor{
     background-image:url(https://trademap.com.br/wp-content/uploads/2020/12/BG-Criptomoedas-trademap-2.png);
     background-position: center left;
     background-repeat: no-repeat;
@@ -11,13 +11,12 @@
 .margin{
     margin-top: 10%;
 }
-.texto{
-    color: #fff;
-    margin-top: 4%;
-}
 #imagem{
     width: 40vw;
     margin-left: 6%;
+}
+.textprim{
+    color: #fff;
 }
 .textprim{
     color: #fff;
@@ -120,7 +119,6 @@
     margin-top: 8.5%;
     margin-left: 3%;
     font-weight: 400;
-    margin-bottom: 5%;
 }
 
 .fundoazul{
@@ -129,9 +127,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 1;
-    width: 160vh;
+    width: 130vh;
     height: 100vh;
-    margin-left: 2%;
+    margin-left: 15%;
     box-shadow: 20px 20px 0px 5px #aa8b00;
     border-style: solid;
     border: #fff 5px;
@@ -157,139 +155,27 @@
     font-size: 0.8rem;
 }
 .tamanho{
-    width: 62vw;
-    margin-left: 8%;
+    width: 60vw;
+    margin-left: 5%;
 }
 .posici{
     margin-left: 40%;
 }
 .fundofooter{
     background-image: url(https://trademap.com.br/wp-content/uploads/2020/12/BG-Criptomoedas-trademap-2.png);
-    width: 150%;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    width: 100%;
     height: 60vh;
 }
 .logofooter{
     width: 30vw;
-    margin-left: 35%;
+    margin-left: 30%;
     margin-top: 5%;
     display: flow-root;
 }
 .margindi{
-    margin-left: 42%;
-}
-
-.wrap{
-    margin-left: 40px;
-    margin-top: 30px;
-	width: 100vw;
-	margin: 50px auto;
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-pack: center;
-	-webkit-justify-content: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-}
-
-.tarjeta-wrap{
-	margin: 10px;
-	-webkit-perspective: 800;
-	perspective: 800;
-  margin-bottom: 20px;
-}
-
-.tarjeta
-{
-	width: 280px;
-	height: 280px;
-	background: #fff;
-	position: relative;
-	-webkit-transform-style: preserve-3d;
-	transform-style: preserve-3d;
-	-webkit-transition: .7s ease;
-	transition: .7s ease;
-  border-radius: 25px;
-
-}
-.adelante, .atras{
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-  border-radius: 50%;
-}
-.adelante
-{
-	width: 100%;
-}
-.atras{
-	-webkit-transform: rotateY(180deg);
-	transform: rotateY(180deg);
-	padding: 15px;
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-pack: center;
-	-webkit-justify-content: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-	-webkit-box-align: center;
-	-webkit-align-items: center;
-	-ms-flex-align: center;
-	align-items: center;
-    font-size: 15px;
-	text-align: center;
-	color: #fff;
-	font-family: 'Montserrat', sans-serif;
-    background-color: #020B3F;
-}
-
-.tarjeta-wrap:hover .tarjeta
-{
-	-webkit-transform: rotateY(180deg);
-	transform: rotateY(180deg);
-}
-
-.cardum{
-    background-image: url("https://trademap.com.br/wp-content/uploads/2021/01/Wicz.png");
-    background-size: cover;
-  }
-
-.carddois{
-	background-image: url("https://trademap.com.br/wp-content/uploads/2021/01/Felippe-Percigo.png");
-	background-size: cover;
-}
-
-.cardtres{
-	background-image: url("https://trademap.com.br/wp-content/uploads/2021/01/Gui-Lacerda.png");
-	background-size: cover;
-}
-
-.cardquatro{
-	background-image: url("https://trademap.com.br/wp-content/uploads/2021/01/joao-oficial.png");
-	background-size: cover;
-}
-
-.cardcinco{
-	background-image: url("https://trademap.com.br/wp-content/uploads/2021/01/Paulo-Aragao.png");
-	background-size: cover;
-}
-
-.cardseis{
-	background-image: url("https://trademap.com.br/wp-content/uploads/2021/01/Rafael-.png");
-	background-size: cover;
-}
-.nomes{
-    font-family: 'Montserrat', sans-serif;
-    color: #020B3F;
-    font-weight: 700;
-    margin-left:25%; 
-    display: flex;
-    width: 10vw;
+    margin-left: 38%;
 }
